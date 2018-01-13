@@ -14,6 +14,7 @@
 		0A938DF4200A7D4A004A15D3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A938DF3200A7D4A004A15D3 /* ExtensionDelegate.swift */; };
 		0A938DF6200A7D4A004A15D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A938DF5200A7D4A004A15D3 /* Assets.xcassets */; };
 		0A938DFA200A7D4A004A15D3 /* HelloAppleWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0A938DE0200A7D4A004A15D3 /* HelloAppleWatch WatchKit App.app */; };
+		0A938E04200A8120004A15D3 /* EmojiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048E79D1BA71FA7005CEAE2 /* EmojiData.swift */; };
 		4048E79E1BA71FA7005CEAE2 /* EmojiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4048E79D1BA71FA7005CEAE2 /* EmojiData.swift */; };
 		40E08A571B4FC70400D06A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E08A561B4FC70400D06A21 /* AppDelegate.swift */; };
 		40E08A591B4FC70400D06A21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E08A581B4FC70400D06A21 /* ViewController.swift */; };
@@ -123,9 +124,18 @@
 			path = "HelloAppleWatch WatchKit App Extension";
 			sourceTree = "<group>";
 		};
+		0A938E03200A80FD004A15D3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4048E79D1BA71FA7005CEAE2 /* EmojiData.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		40E08A4A1B4FC70400D06A21 = {
 			isa = PBXGroup;
 			children = (
+				0A938E03200A80FD004A15D3 /* Shared */,
 				40E08A551B4FC70400D06A21 /* HelloAppleWatch */,
 				0A938DE1200A7D4A004A15D3 /* HelloAppleWatch WatchKit App */,
 				0A938DF0200A7D4A004A15D3 /* HelloAppleWatch WatchKit App Extension */,
@@ -148,7 +158,6 @@
 			children = (
 				40E08A561B4FC70400D06A21 /* AppDelegate.swift */,
 				40E08A581B4FC70400D06A21 /* ViewController.swift */,
-				4048E79D1BA71FA7005CEAE2 /* EmojiData.swift */,
 				40E08A5A1B4FC70400D06A21 /* Main.storyboard */,
 				40E08A5D1B4FC70400D06A21 /* Assets.xcassets */,
 				40E08A5F1B4FC70400D06A21 /* LaunchScreen.storyboard */,
@@ -297,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A938DF4200A7D4A004A15D3 /* ExtensionDelegate.swift in Sources */,
+				0A938E04200A8120004A15D3 /* EmojiData.swift in Sources */,
 				0A938DF2200A7D4A004A15D3 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

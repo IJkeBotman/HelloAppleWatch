@@ -9,15 +9,20 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Cookie-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloAppleWatch_WatchKit_App" customModuleProvider="target">
+                <controller backgroundImage="Cookie" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloAppleWatch_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" verticalAlignment="center" text="Hello World!" id="AiN-LK-6aH"/>
+                        <button width="1" height="1" alignment="center" verticalAlignment="bottom" title="Button" id="dXg-zF-3hl">
+                            <fontDescription key="font" type="system" pointSize="22"/>
+                            <connections>
+                                <action selector="newFortune" destination="AgC-eL-Hgc" id="ooL-7F-DNc"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
-                        <outlet property="label" destination="AiN-LK-6aH" id="AAG-dh-RCB"/>
+                        <outlet property="button" destination="dXg-zF-3hl" id="PJS-mE-1wW"/>
                     </connections>
                 </controller>
             </objects>
